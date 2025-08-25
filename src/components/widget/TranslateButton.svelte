@@ -3,7 +3,6 @@ import Icon from "@iconify/svelte";
 import { onDestroy, onMount } from "svelte";
 import { siteConfig } from "@/config";
 import { getTranslateLanguageFromConfig } from "@/utils/language-utils";
-import { loadTranslateScript } from "@/utils/translate-loader";
 
 let isOpen = false;
 let translatePanel: HTMLElement;
@@ -36,7 +35,9 @@ function togglePanel() {
 async function changeLanguage(languageCode: string) {
 	try {
 		// 懒加载翻译脚本
-		await loadTranslateScript();
+		if (typeof window.loadTranslateScript === 'function') {
+			await window.loadTranslateScript();
+		}
 		
 		if (typeof window.translate !== 'undefined' && window.translate.language && typeof window.translate.language.getLocal === 'function') {
 			// 检查是否选择的是简体中文，且当前本地语言也是简体中文
@@ -153,9 +154,10 @@ onDestroy(() => {
     opacity: 0;
     pointer-events: none;
     transform: translateY(-10px);
+    transition: all 0.2s ease-out;
 }
 
-.float-panel-closed:not(.float-panel-closed) {
+#translate-panel:not(.float-panel-closed) {
     opacity: 1;
     pointer-events: auto;
     transform: translateY(0);
