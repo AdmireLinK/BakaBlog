@@ -251,7 +251,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "/assets/avatar/2.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "assets/avatar/2.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "Ave Mujica的Oblivionis本人",
 	bio: "The world is big, you have to go and see",
 	links: [
