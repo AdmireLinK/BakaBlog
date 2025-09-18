@@ -23,7 +23,8 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
 	title: "笨蛋物语",
-	subtitle: "",
+	subtitle:
+		"Ave Mujica的Oblivionis本人学习CS相关内容从入门到退坑的走马灯回忆录",
 
 	lang: SITE_LANG,
 
@@ -46,24 +47,27 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/d1.webp",
-				"/assets/desktop-banner/d2.webp",
-				"/assets/desktop-banner/d3.webp",
-				"/assets/desktop-banner/d4.webp",
-				"/assets/desktop-banner/d5.webp",
-				"/assets/desktop-banner/d6.webp",
-				"/assets/desktop-banner/d7.webp",
-				"/assets/desktop-banner/d8.webp",
+				"/assets/landscape/1.jpg",
+				"/assets/landscape/2.jpg",
+				"/assets/landscape/3.jpg",
+				"/assets/landscape/4.jpg",
+				"/assets/landscape/5.jpg",
+				"/assets/landscape/6.jpg",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/m1.webp",
-				"/assets/mobile-banner/m2.webp",
-				"/assets/mobile-banner/m3.webp",
-				"/assets/mobile-banner/m4.webp",
-				"/assets/mobile-banner/m5.webp",
-				"/assets/mobile-banner/m6.webp",
-				"/assets/mobile-banner/m7.webp",
-				"/assets/mobile-banner/m8.webp",
+				"/assets/portrait/1.jpg",
+				"/assets/portrait/2.jpg",
+				"/assets/portrait/3.jpg",
+				"/assets/portrait/4.jpg",
+				"/assets/portrait/5.jpg",
+				"/assets/portrait/6.jpg",
+				"/assets/portrait/7.jpg",
+				"/assets/portrait/8.jpg",
+				"/assets/portrait/9.jpg",
+				"/assets/portrait/10.jpg",
+				"/assets/portrait/11.jpg",
+				"/assets/portrait/12.jpg",
+				"/assets/portrait/13.jpg",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -86,13 +90,25 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Beautiful Mizuki!", // 主页横幅主标题
+			title: "笨蛋物语", // 主页横幅主标题
 
 			subtitle: [
-				"A Showcase Demo Site",
-				"Carousel Highlight: Innovation",
-				"Carousel Focus: User Experience",
-				"Carousel Spot: Core Advantages",
+				"我好想成为人类ですわ",
+				"为什么要演奏《春日影》ですわ",
+				"欧内该 要是没有笨蛋物语的话 瓦达西...",
+				"我什么都愿意做ですわ",
+				"我是来结束这个乐队的ですわ",
+				"这个不需要了ですわ",
+				"我想我大概…一辈子也忘不了CRYCHICですわ",
+				"那你愿意……跟我组一辈子的乐队吗？",
+				"主唱太拼命了ですわ",
+				"Soyo同学，Loveですわ♡",
+				"哒咩跌丝袜~",
+				"你这个人，满脑子都想着自己呢",
+				"还真是高高在上呢",
+				"过去软弱的我…已经死了ですわ",
+				"我从来不觉得玩乐队开心过ですわ",
+				"祝你幸福ですわ",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -121,35 +137,38 @@ export const siteConfig: SiteConfig = {
 	generateOgImages: true, // 启用生成OpenGraph图片功能
 	favicon: [
 		// 留空以使用默认 favicon
-		// {
-		//   src: '/favicon/icon.png',    // 图标文件路径
-		//   theme: 'light',              // 可选，指定主题 'light' | 'dark'
-		//   sizes: '32x32',              // 可选，图标大小
-		// }
+		{
+			src: "/assets/avatar/4.jpg", // 图标文件路径
+			//   theme: 'light',              // 可选，指定主题 'light' | 'dark'
+			//   sizes: '32x32',              // 可选，图标大小
+		},
 	],
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	enable: true, // 启用全屏壁纸功能,非Banner模式下生效
 	src: {
 		desktop: [
-			"/assets/desktop-banner/d1.webp",
-			"/assets/desktop-banner/d2.webp",
-			"/assets/desktop-banner/d3.webp",
-			"/assets/desktop-banner/d4.webp",
-			"/assets/desktop-banner/d5.webp",
-			"/assets/desktop-banner/d6.webp",
-			"/assets/desktop-banner/d7.webp",
-			"/assets/desktop-banner/d8.webp",
+			"/assets/landscape/1.jpg",
+			"/assets/landscape/2.jpg",
+			"/assets/landscape/3.jpg",
+			"/assets/landscape/4.jpg",
+			"/assets/landscape/5.jpg",
+			"/assets/landscape/6.jpg",
 		], // 桌面横幅图片
 		mobile: [
-			"/assets/mobile-banner/m1.webp",
-			"/assets/mobile-banner/m2.webp",
-			"/assets/mobile-banner/m3.webp",
-			"/assets/mobile-banner/m4.webp",
-			"/assets/mobile-banner/m5.webp",
-			"/assets/mobile-banner/m6.webp",
-			"/assets/mobile-banner/m7.webp",
-			"/assets/mobile-banner/m8.webp",
+			"/assets/portrait/1.jpg",
+			"/assets/portrait/2.jpg",
+			"/assets/portrait/3.jpg",
+			"/assets/portrait/4.jpg",
+			"/assets/portrait/5.jpg",
+			"/assets/portrait/6.jpg",
+			"/assets/portrait/7.jpg",
+			"/assets/portrait/8.jpg",
+			"/assets/portrait/9.jpg",
+			"/assets/portrait/10.jpg",
+			"/assets/portrait/11.jpg",
+			"/assets/portrait/12.jpg",
+			"/assets/portrait/13.jpg",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
@@ -174,21 +193,15 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/admire_link",
 					external: true,
 					icon: "fa6-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/354780713",
 					external: true,
 					icon: "fa6-brands:bilibili",
-				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-					icon: "mdi:git",
 				},
 			],
 		},
@@ -238,8 +251,8 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "Mizuki",
+	avatar: "assets/avatar/2.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	name: "Ave Mujica的Oblivionis本人",
 	bio: "The world is big, you have to go and see",
 	links: [
 		{
@@ -453,7 +466,7 @@ export const sakuraConfig: SakuraConfig = {
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
 	enable: true, // 启用看板娘
-	models: ["/pio/models/pio/model.json"], // 默认模型路径
+	models: ["/pio/models/saki/3.model.json"], // 默认模型路径
 	position: "left", // 默认位置在右侧
 	width: 280, // 默认宽度
 	height: 250, // 默认高度
