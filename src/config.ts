@@ -470,20 +470,19 @@ export const pioConfig: import("./types/config").PioConfig = {
 	position: "left", // 默认位置在右侧
 	width: 280, // 默认宽度
 	height: 250, // 默认高度
-	mode: "draggable", // 默认为可拖拽模式
+	mode: "fixed", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
-		welcome: "Welcome to Mizuki Website!", // 欢迎词
+		welcome: "我可是Ave Mujica的Oblivionis", // 欢迎词
 		touch: [
-			"What are you doing?",
-			"Stop touching me!",
-			"HENTAI!",
-			"Don't bully me like that!",
+			"你干嘛 哈哈 哎呦",
+			"我看你是相思了ですわ",
+			"是时候展现丰川家的黑暗了ですわ",
 		], // 触摸提示
-		home: "Click here to go back to homepage!", // 首页提示
-		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
-		close: "QWQ See you next time~", // 关闭提示
-		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
+		// home: "Click here to go back to homepage!", // 首页提示
+		// skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
+		// close: "QWQ See you next time~", // 关闭提示
+		// link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
 	},
 };
 
