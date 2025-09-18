@@ -93,9 +93,9 @@ export const siteConfig: SiteConfig = {
 			title: "笨蛋物语", // 主页横幅主标题
 
 			subtitle: [
-				"我好想成为人类ですわ",
+				"我真的好想成为人类ですわ",
 				"为什么要演奏《春日影》ですわ",
-				"欧内该 要是没有笨蛋物语的话 瓦达西...",
+				"欧内该 要是没有Saki的话 瓦达西...",
 				"我什么都愿意做ですわ",
 				"我是来结束这个乐队的ですわ",
 				"这个不需要了ですわ",
@@ -251,7 +251,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/avatar/2.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "/assets/avatar/2.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "Ave Mujica的Oblivionis本人",
 	bio: "The world is big, you have to go and see",
 	links: [
