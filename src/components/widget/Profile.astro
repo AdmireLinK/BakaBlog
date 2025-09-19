@@ -50,7 +50,7 @@ const umamiRegion = profileConfig.umami?.region || "eu";
                   const region = umamiRegion;
                   console.log('Profile shareId:', shareId, 'region:', region);
                   
-                  const shareRes = await fetch(`https://${region}.umami.is/api/share/${shareId}`);
+                  const shareRes = await fetch(`https://${region}.baka.website/api/share/${shareId}`);
                   console.log('Profile shareRes status:', shareRes.status);
                   
                   if (!shareRes.ok) {
@@ -63,7 +63,7 @@ const umamiRegion = profileConfig.umami?.region || "eu";
                   const websiteId = shareData.websiteId || shareData.website_id || shareData.id;
                   console.log('Profile token:', token, 'websiteId:', websiteId);
                   
-                  const url = `https://${region}.umami.is/api/websites/${websiteId}/stats?` +
+                  const url = `https://${region}.baka.website/api/websites/${websiteId}/stats?` +
                     new URLSearchParams({
                       startAt: '1753333200000',
                       endAt: Date.now(),
