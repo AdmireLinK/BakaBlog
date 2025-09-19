@@ -104,7 +104,7 @@ const umamiRegion = profileConfig.umami?.region || "eu";
                                 console.log('PostMeta shareId:', shareId, 'region:', region);
                                 console.log('PostMeta pathname:', pathname);
                                 
-                                const shareRes = await fetch(`https://${region}.umami.is/api/share/${shareId}`);
+                                const shareRes = await fetch(`https://${region}.baka.website/share/${shareId}`);
                                 console.log('PostMeta shareRes status:', shareRes.status);
                                 
                                 if (!shareRes.ok) {
