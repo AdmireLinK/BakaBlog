@@ -117,7 +117,7 @@ const umamiRegion = profileConfig.umami?.region || "eu";
                                 const websiteId = shareData.websiteId || shareData.website_id || shareData.id;
                                 console.log('PostMeta token:', token, 'websiteId:', websiteId);
                                 
-                                const url = `https://${region}.baka.website/websites/${websiteId}/stats?` +
+                                const url = `https://${region}.baka.website/api/websites/${websiteId}/stats?` +
                                     new URLSearchParams({
                                         startAt: '1753333200000',
                                         endAt: Date.now(),
