@@ -22,8 +22,7 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
 	title: "笨蛋物语",
-	subtitle:
-		"一个走马灯回忆录",
+	subtitle: "一个走马灯回忆录",
 
 	lang: SITE_LANG,
 
@@ -302,6 +301,7 @@ export const commentConfig: CommentConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
+	enable: false,
 	title: "Announcement", // 公告标题
 	content: "Welcome to my blog! This is a sample announcement.", // 公告内容
 	closable: true, // 允许用户关闭公告
