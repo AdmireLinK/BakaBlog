@@ -23,7 +23,7 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 export const siteConfig: SiteConfig = {
 	title: "笨蛋物语",
 	subtitle:
-		"Ave Mujica的Oblivionis本人学习CS相关内容从入门到退坑的走马灯回忆录",
+		"一个走马灯回忆录",
 
 	lang: SITE_LANG,
 
@@ -439,7 +439,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 };
 
 export const sakuraConfig: SakuraConfig = {
-	enable: true, // 默认关闭樱花特效
+	enable: false, // 默认关闭樱花特效
 	sakuraNum: 21, // 樱花数量
 	limitTimes: -1, // 樱花越界限制次数，-1为无限循环
 	size: {
