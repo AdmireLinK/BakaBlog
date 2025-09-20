@@ -89,7 +89,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "笨蛋物语", // 主页横幅主标题
+			title: "忘却之庭", // 主页横幅主标题
 
 			subtitle: [
 				"我真的好想成为人类ですわ",
