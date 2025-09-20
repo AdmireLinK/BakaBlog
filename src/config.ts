@@ -21,8 +21,8 @@ import { getTranslateLanguageFromConfig } from "./utils/language-utils";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-	title: "笨蛋物语",
-	subtitle: "一个走马灯回忆录",
+	title: "忘却之庭",
+	subtitle: "小祥的开发日记",
 
 	lang: SITE_LANG,
 
