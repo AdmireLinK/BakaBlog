@@ -469,8 +469,8 @@ export const pioConfig: import("./types/config").PioConfig = {
 	], // 默认模型路径
 	position: "left", // 默认位置在右侧
 	width: 280, // 默认宽度
-	height: 250, // 默认高度
-	mode: "static", // 默认为可拖拽模式
+	height: 350, // 默认高度
+	mode: "fixed", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
 		welcome: "我可是Ave Mujica的Oblivionis", // 欢迎词
