@@ -155,26 +155,26 @@ var Paul_Pio = function (prop) {
 		// 右侧按钮
 		buttons: () => {
 			// 返回首页 - 使用 Swup 无刷新跳转
-			elements.home.onclick = () => {
-				// 检查 Swup 是否可用
-				if (typeof window !== "undefined" && window.swup) {
-					try {
-						// 使用 Swup 进行无刷新跳转
-						window.swup.navigate("/");
-					} catch (error) {
-						console.error("Swup navigation failed:", error);
-						// 降级到普通跳转
-						location.href = current.root;
-					}
-				} else {
-					// Swup 不可用时使用普通跳转
-					location.href = current.root;
-				}
-			};
-			elements.home.onmouseover = () => {
-				modules.message(prop.content.home || "点击这里回到首页！");
-			};
-			current.menu.appendChild(elements.home);
+			// elements.home.onclick = () => {
+			// 	// 检查 Swup 是否可用
+			// 	if (typeof window !== "undefined" && window.swup) {
+			// 		try {
+			// 			// 使用 Swup 进行无刷新跳转
+			// 			window.swup.navigate("/");
+			// 		} catch (error) {
+			// 			console.error("Swup navigation failed:", error);
+			// 			// 降级到普通跳转
+			// 			location.href = current.root;
+			// 		}
+			// 	} else {
+			// 		// Swup 不可用时使用普通跳转
+			// 		location.href = current.root;
+			// 	}
+			// };
+			// elements.home.onmouseover = () => {
+			// 	modules.message(prop.content.home || "点击这里回到首页！");
+			// };
+			// current.menu.appendChild(elements.home);
 
 			// 更换模型
 			if (prop.model && prop.model.length > 1) {
@@ -192,16 +192,16 @@ var Paul_Pio = function (prop) {
 			}
 
 			// 关于我
-			elements.info.onclick = () => {
-				window.open(
-					prop.content.link ||
-						"https://paugram.com/coding/add-poster-girl-with-plugin.html",
-				);
-			};
-			elements.info.onmouseover = () => {
-				modules.message("想了解更多关于我的信息吗？");
-			};
-			current.menu.appendChild(elements.info);
+			// elements.info.onclick = () => {
+			// 	window.open(
+			// 		prop.content.link ||
+			// 			"https://paugram.com/coding/add-poster-girl-with-plugin.html",
+			// 	);
+			// };
+			// elements.info.onmouseover = () => {
+			// 	modules.message("想了解更多关于我的信息吗？");
+			// };
+			// current.menu.appendChild(elements.info);
 
 			// 夜间模式
 			if (prop.night) {
