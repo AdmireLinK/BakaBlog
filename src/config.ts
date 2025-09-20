@@ -463,11 +463,14 @@ export const sakuraConfig: SakuraConfig = {
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
 	enable: true, // 启用看板娘
-	models: ["/pio/models/saki/3.model.json"], // 默认模型路径
+	models: [
+		"/pio/models/saki/3.model.json",
+		"/pio/models/oblivionis/3.model.json",
+	], // 默认模型路径
 	position: "left", // 默认位置在右侧
 	width: 280, // 默认宽度
 	height: 250, // 默认高度
-	mode: "fixed", // 默认为可拖拽模式
+	mode: "static", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
 		welcome: "我可是Ave Mujica的Oblivionis", // 欢迎词
