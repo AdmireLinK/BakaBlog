@@ -129,12 +129,6 @@
 	"motions": {
 		"idle": [
 			{
-				"name": "nya",
-				"file": "nf01.mtn",
-				"interruptable": true,
-				"next_mtn": "idle:kime"
-			},
-			{
 				"name": "think",
 				"file": "nnf03.mtn",
 				"interruptable": true
