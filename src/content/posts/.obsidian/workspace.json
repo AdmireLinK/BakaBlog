@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Helloworld/Helloworld.md",
+                "file": "Helloworld.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Helloworld/Helloworld.md",
+                "file": "Helloworld.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Helloworld/Helloworld.md",
+                "file": "Helloworld.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Helloworld/Helloworld.md",
+                "file": "Helloworld.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -172,7 +172,7 @@
   "active": "ab0ed5fc34d02dee",
   "lastOpenFiles": [
     "Helloworld/cover.png",
-    "Helloworld/Helloworld.md",
+    "Helloworld.md",
     "templates/draft.md",
     "templates/markdown-extended.md",
     "templates/markdown-mermaid.md",
