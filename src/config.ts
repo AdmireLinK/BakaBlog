@@ -22,7 +22,7 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
 	title: "忘却之庭",
-	subtitle: "小祥的开发日记",
+	subtitle: "小祥的开发日志",
 
 	lang: SITE_LANG,
 
@@ -137,7 +137,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		// 留空以使用默认 favicon
 		{
-			src: "/favicon/favicon.jpg", // 图标文件路径
+			src: "/favicon/favicon.png", // 图标文件路径
 			//   theme: 'light',              // 可选，指定主题 'light' | 'dark'
 			//   sizes: '32x32',              // 可选，图标大小
 		},
@@ -353,7 +353,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：公告组件
 			type: "announcement",
 			// 是否启用该组件（现在通过统一配置控制）
-			enable: true,
+			enable: false,
 			// 组件显示顺序
 			order: 2,
 			// 组件位置："top" 表示固定在顶部
