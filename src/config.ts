@@ -151,6 +151,9 @@ export const siteConfig: SiteConfig = {
 		hanalei: {
 			enable: true, // 启用 Hanalei 字体作为全局字体，适合中文去使用
 		},
+		UranusPixel: {
+			enable: true, // 启用天王星像素字体
+		},
 	},
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
