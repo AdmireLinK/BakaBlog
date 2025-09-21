@@ -315,7 +315,8 @@ export const announcementConfig: AnnouncementConfig = {
 export const musicPlayerConfig: MusicPlayerConfig = {
 	enable: true, // 启用音乐播放器功能
 	mode: "meting",
-	meting_api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
+	meting_api:
+		"https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
 	id: "14320137025",
 };
 
@@ -500,9 +501,9 @@ export const widgetConfigs = {
 } as const;
 
 export const umamiConfig = {
-  enabled: false, // 是否显示Umami统计
-  shareURL: "https://us.umami.is/api/share/ABCD1234", //你的分享API,支持自建服务
-  scripts: `
-<script defer src="XXXX.XXX" data-website-id="ABCD1234"></script>
-  `.trim() //上面填你要插入的Script,不用再去Layout中插入
+	enabled: true, // 是否显示Umami统计
+	shareURL: "https://umami.baka.website/share/yANVSguWqqB7nTPZ", //你的分享API,支持自建服务
+	scripts: `
+<script defer src="https://umami.baka.website/script.js" data-website-id="418c379d-c3e4-42ae-9c97-67e8d40d78b3"></script>
+  `.trim(), //上面填你要插入的Script,不用再去Layout中插入
 } as const;
