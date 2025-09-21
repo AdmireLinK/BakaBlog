@@ -5,6 +5,6 @@ description: 本博客的第一篇帖子
 image: ./cover.png
 draft: false
 pinned: false
-encrypted:
+encrypted: false
 ---
 这是本博客的第一篇帖子
