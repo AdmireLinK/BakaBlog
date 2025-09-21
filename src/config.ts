@@ -317,6 +317,9 @@ export const announcementConfig: AnnouncementConfig = {
 
 export const musicPlayerConfig: MusicPlayerConfig = {
 	enable: true, // 启用音乐播放器功能
+	mode: "meting",
+	meting_api: "https://meting.baka.website/api?server=:server&type=:type&id=:id&auth=:auth&r=:r"
+	id: "14320137025",
 };
 
 export const footerConfig: FooterConfig = {
