@@ -6,5 +6,6 @@ image: ../assets/images/helloworld.png
 draft: false
 pinned: false
 encrypted: false
+category: Helloworld
 ---
 # 这是本博客的第一篇帖子
