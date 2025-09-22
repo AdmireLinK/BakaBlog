@@ -98,47 +98,47 @@ var Paul_Pio = function (prop) {
 	/* - 提示操作 */
 	const action = {
 		// 欢迎
-		welcome: () => {
-			if (document.referrer && document.referrer.includes(current.root)) {
-				const referrer = document.createElement("a");
-				referrer.href = document.referrer;
+		// welcome: () => {
+		// 	if (document.referrer && document.referrer.includes(current.root)) {
+		// 		const referrer = document.createElement("a");
+		// 		referrer.href = document.referrer;
 
-				if (prop.content.referer) {
-					modules.message(
-						prop.content.referer.replace(/%t/, `“${referrer.hostname}”`),
-					);
-				} else {
-					modules.message(`欢迎来自 “${referrer.hostname}” 的朋友！`);
-				}
-			} else if (prop.tips) {
-				let text,
-					hour = new Date().getHours();
+		// 		if (prop.content.referer) {
+		// 			modules.message(
+		// 				prop.content.referer.replace(/%t/, `“${referrer.hostname}”`),
+		// 			);
+		// 		} else {
+		// 			modules.message(`欢迎来自 “${referrer.hostname}” 的朋友！`);
+		// 		}
+		// 	} else if (prop.tips) {
+		// 		let text,
+		// 			hour = new Date().getHours();
 
-				if (hour > 22 || hour <= 5) {
-					text = "你是夜猫子呀？这么晚还不睡觉，明天起的来嘛";
-				} else if (hour > 5 && hour <= 8) {
-					text = "早上好！";
-				} else if (hour > 8 && hour <= 11) {
-					text = "上午好！工作顺利嘛，不要久坐，多起来走动走动哦！";
-				} else if (hour > 11 && hour <= 14) {
-					text = "中午了，工作了一个上午，现在是午餐时间！";
-				} else if (hour > 14 && hour <= 17) {
-					text = "午后很容易犯困呢，今天的运动目标完成了吗？";
-				} else if (hour > 17 && hour <= 19) {
-					text = "傍晚了！窗外夕阳的景色很美丽呢，最美不过夕阳红~";
-				} else if (hour > 19 && hour <= 21) {
-					text = "晚上好，今天过得怎么样？";
-				} else if (hour > 21 && hour <= 23) {
-					text = "已经这么晚了呀，早点休息吧，晚安~";
-				} else {
-					text = "奇趣保罗说：这个是无法被触发的吧，哈哈";
-				}
+		// 		if (hour > 22 || hour <= 5) {
+		// 			text = "你是夜猫子呀？这么晚还不睡觉，明天起的来嘛";
+		// 		} else if (hour > 5 && hour <= 8) {
+		// 			text = "早上好！";
+		// 		} else if (hour > 8 && hour <= 11) {
+		// 			text = "上午好！工作顺利嘛，不要久坐，多起来走动走动哦！";
+		// 		} else if (hour > 11 && hour <= 14) {
+		// 			text = "中午了，工作了一个上午，现在是午餐时间！";
+		// 		} else if (hour > 14 && hour <= 17) {
+		// 			text = "午后很容易犯困呢，今天的运动目标完成了吗？";
+		// 		} else if (hour > 17 && hour <= 19) {
+		// 			text = "傍晚了！窗外夕阳的景色很美丽呢，最美不过夕阳红~";
+		// 		} else if (hour > 19 && hour <= 21) {
+		// 			text = "晚上好，今天过得怎么样？";
+		// 		} else if (hour > 21 && hour <= 23) {
+		// 			text = "已经这么晚了呀，早点休息吧，晚安~";
+		// 		} else {
+		// 			text = "奇趣保罗说：这个是无法被触发的吧，哈哈";
+		// 		}
 
-				modules.message(text);
-			} else {
-				modules.message(prop.content.welcome || "欢迎来到本站！");
-			}
-		},
+		// 		modules.message(text);
+		// 	} else {
+		// 		modules.message(prop.content.welcome || "欢迎来到本站！");
+		// 	}
+		// },
 		// 触摸
 		touch: () => {
 			current.canvas.onclick = () => {

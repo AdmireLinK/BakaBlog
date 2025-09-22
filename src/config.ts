@@ -481,9 +481,9 @@ export const pioConfig: import("./types/config").PioConfig = {
 	dialog: {
 		welcome: "我可是Ave Mujica的Oblivionis", // 欢迎词
 		touch: [
-			"你干嘛 哈哈 哎呦",
-			"我看你是相思了ですわ",
-			"是时候展现丰川家的黑暗了ですわ",
+			// "你干嘛 哈哈 哎呦",
+			// "我看你是相思了ですわ",
+			// "是时候展现丰川家的黑暗了ですわ",
 		], // 触摸提示
 		// home: "Click here to go back to homepage!", // 首页提示
 		// skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
