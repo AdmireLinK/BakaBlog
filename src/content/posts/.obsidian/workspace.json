@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "caf7f83b2171e01c",
+        "id": "6ab6a20788c01ecc",
         "type": "tabs",
         "children": [
           {
-            "id": "ab0ed5fc34d02dee",
+            "id": "74bab8564cbde0f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Helloworld.md",
-                "mode": "source",
-                "source": false
+                "file": "templates/guide/cover.jpeg"
               },
-              "icon": "lucide-file",
-              "title": "Helloworld"
+              "icon": "lucide-image",
+              "title": "cover"
             }
           }
         ]
@@ -74,8 +72,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -169,14 +166,16 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "ab0ed5fc34d02dee",
+  "active": "74bab8564cbde0f8",
   "lastOpenFiles": [
-    "Helloworld/cover.png",
-    "Helloworld.md",
-    "templates/draft.md",
-    "templates/markdown-extended.md",
-    "templates/markdown-mermaid.md",
+    "未命名.canvas",
+    "未命名 1.canvas",
     "templates/markdown-tutorial.md",
+    "templates/markdown-extended.md",
+    "Helloworld.md",
+    "Helloworld/cover.png",
+    "templates/draft.md",
+    "templates/markdown-mermaid.md",
     "templates/video.md",
     "templates/Template MD File.md",
     "templates/guide/index.md",
