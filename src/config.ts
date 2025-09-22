@@ -320,7 +320,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	mode: "meting",
 	meting_api:
 		"https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
-	id: "14320137025",
+	id: "14323523300",
 };
 
 export const footerConfig: FooterConfig = {
