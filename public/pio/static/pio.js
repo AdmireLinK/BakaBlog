@@ -306,7 +306,7 @@ var Paul_Pio = function (prop) {
 		// 未隐藏 + 非手机版，出现操作功能
 		if (!(prop.hidden && tools.isMobile())) {
 			if (!noModel) {
-				// action.welcome();
+				action.welcome();
 				loadlive2d("pio", prop.model[0]);
 			}
 
