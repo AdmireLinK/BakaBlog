@@ -11,12 +11,14 @@
             "id": "74bab8564cbde0f8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "templates/guide/cover.jpeg"
+                "file": "Helloworld.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "cover"
+              "icon": "lucide-file",
+              "title": "Helloworld"
             }
           }
         ]
@@ -168,6 +170,7 @@
   },
   "active": "74bab8564cbde0f8",
   "lastOpenFiles": [
+    "templates/guide/cover.jpeg",
     "未命名.canvas",
     "未命名 1.canvas",
     "templates/markdown-tutorial.md",
@@ -179,7 +182,6 @@
     "templates/video.md",
     "templates/Template MD File.md",
     "templates/guide/index.md",
-    "templates/guide/cover.jpeg",
     "Helloworld",
     "templates/encrypted-post.md",
     "2024/11/29.md",
