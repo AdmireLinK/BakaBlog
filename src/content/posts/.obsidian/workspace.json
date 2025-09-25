@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Helloworld.md",
+                "file": "templates/markdown-extended.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Helloworld"
+              "title": "markdown-extended"
             }
           }
         ]
@@ -170,20 +170,20 @@
   },
   "active": "74bab8564cbde0f8",
   "lastOpenFiles": [
+    "templates/encrypted-post.md",
+    "templates/draft.md",
     "templates/guide/cover.jpeg",
-    "未命名.canvas",
-    "未命名 1.canvas",
+    "templates/guide/index.md",
     "templates/markdown-tutorial.md",
+    "templates/markdown-mermaid.md",
     "templates/markdown-extended.md",
     "Helloworld.md",
+    "未命名.canvas",
+    "未命名 1.canvas",
     "Helloworld/cover.png",
-    "templates/draft.md",
-    "templates/markdown-mermaid.md",
     "templates/video.md",
     "templates/Template MD File.md",
-    "templates/guide/index.md",
     "Helloworld",
-    "templates/encrypted-post.md",
     "2024/11/29.md",
     "2024/11",
     "2024",
