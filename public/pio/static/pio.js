@@ -259,11 +259,11 @@ var Paul_Pio = function (prop) {
 			current.body.classList.add("static");
 		},
 		fixed: () => {
-			action.touch();
+			// action.touch();
 			action.buttons();
 		},
 		draggable: () => {
-			action.touch();
+			// action.touch();
 			action.buttons();
 
 			const body = current.body;
