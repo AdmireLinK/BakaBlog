@@ -140,18 +140,18 @@ var Paul_Pio = function (prop) {
 		// 	}
 		// },
 		// 触摸
-		touch: () => {
-			current.canvas.onclick = () => {
-				modules.message(
-					prop.content.touch || [
-						"你在干什么？",
-						"再摸我就报警了！",
-						"HENTAI!",
-						"不可以这样欺负我啦！",
-					],
-				);
-			};
-		},
+		// touch: () => {
+		// 	current.canvas.onclick = () => {
+		// 		modules.message(
+		// 			prop.content.touch || [
+		// 				"你在干什么？",
+		// 				"再摸我就报警了！",
+		// 				"HENTAI!",
+		// 				"不可以这样欺负我啦！",
+		// 			],
+		// 		);
+		// 	};
+		// },
 		// 右侧按钮
 		buttons: () => {
 			// 返回首页 - 使用 Swup 无刷新跳转
