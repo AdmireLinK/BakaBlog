@@ -1,10 +1,11 @@
 ---
 import ImageWrapper from "../components/misc/ImageWrapper.astro";
-import { siteConfig, siteConfig } from "../config";
+import { siteConfig } from "../config";
 import localAnimeList from "../data/anime";
 import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
+import { siteConfig } from "../config";
 
 // Bangumi API配置
 const BANGUMI_USER_ID = siteConfig.bangumi?.userId || "your-user-id"; // 用户ID
@@ -80,25 +81,25 @@ async function processBangumiData(data: any, status: string) {
 			// 获取年份信息
 			const year = item.subject?.date || "Unknown";
 			// 获取评分
-			const rating = item.rank ? Number.parseFloat(item.rank.toFixed(1)) : 0;
+			const rating = item.rate ? Number.parseFloat(item.rate.toFixed(1)) : 0;
 			// 获取进度信息
 			const progress = item.ep_status || 0;
 			const totalEpisodes = item.subject?.eps || progress;
 			// 从相关人员中获取制作方信息
-			const studio = item.subject?.creator || "Unknown";
-			// if (Array.isArray(subjectPersons)) {
-			// 	// 定义筛选优先级顺序
-			// 	const priorities = ["动画制作", "製作", "制作"];
-			// 	for (const relation of priorities) {
-			// 		const match = subjectPersons.find(
-			// 			(person) => person.relation === relation,
-			// 		);
-			// 		if (match?.name) {
-			// 			studio = match.name;
-			// 			break;
-			// 		}
-			// 	}
-			// }
+			let studio = "Unknown";
+			if (Array.isArray(subjectPersons)) {
+				// 定义筛选优先级顺序
+				const priorities = ["动画制作", "製作", "制作"];
+				for (const relation of priorities) {
+					const match = subjectPersons.find(
+						(person) => person.relation === relation,
+					);
+					if (match?.name) {
+						studio = match.name;
+						break;
+					}
+				}
+			}
 
 			return {
 				title: item.subject?.name_cn || item.subject?.name || "Unknown Title",
@@ -106,7 +107,7 @@ async function processBangumiData(data: any, status: string) {
 				rating: rating,
 				cover: item.subject?.images?.medium || "/assets/anime/default.webp",
 				description: (
-					item.subject?.summary ||
+					item.subject?.short_summary ||
 					item.subject?.name_cn ||
 					""
 				).trimStart(),
