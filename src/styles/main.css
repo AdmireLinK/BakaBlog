@@ -27,6 +27,14 @@
 	font-display: swap;
 }
 
+/* 导入天王星像素字体 */
+@font-face {
+    font-family: 'UranusPixel';
+    src: url('/assets/font/UranusPixel.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -46,6 +54,9 @@ html {
   font-family: 'Hanalei', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.uranus-pixel-enabled {
+    font-family: 'UranusPixel', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 /* 页面顶部渐变高光效果 */
 .top-gradient-highlight {
     position: fixed;

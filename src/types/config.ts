@@ -29,6 +29,9 @@ export type SiteConfig = {
 		hanalei: {
 			enable: boolean; // 是否使用 Hanalei 作为全局字体
 		};
+		UranusPixel: {
+			enable: boolean;
+		};
 	};
 
 	translate?: {
@@ -138,7 +141,6 @@ export type ProfileConfig = {
 		url: string;
 		icon: string;
 	}[];
-
 };
 
 export type LicenseConfig = {
