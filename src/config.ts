@@ -23,6 +23,15 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 export const siteConfig: SiteConfig = {
 	title: "忘却之庭",
 	subtitle: "小祥的开发日志",
+	keywords: [
+		"Fuwari",
+		"Mizuki",
+		"Astro",
+		"ACGN",
+		"博客",
+		"技术博客",
+		"静态博客",
+	],
 
 	lang: SITE_LANG,
 
@@ -163,6 +172,7 @@ export const siteConfig: SiteConfig = {
 			enable: true, // 启用天王星像素字体
 		},
 	},
+	showLastModified: true, // 控制“上次编辑”卡片显示的开关
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	enable: true, // 启用全屏壁纸功能,非Banner模式下生效

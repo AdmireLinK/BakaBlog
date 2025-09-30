@@ -11,7 +11,7 @@ licenseName: Unlicensed
 author: emn178
 sourceLink: https://github.com/emn178/markdown
 draft: true
----
+series: Guide
 
 # Markdown Tutorial
 

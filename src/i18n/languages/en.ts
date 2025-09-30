@@ -10,6 +10,7 @@ export const en: Translation = {
 
 	[Key.tags]: "Tags",
 	[Key.categories]: "Categories",
+	[Key.series]: "Series",
 	[Key.recentPosts]: "Recent Posts",
 	[Key.postList]: "Post List",
 	[Key.tableOfContents]: "Table of Contents",
@@ -214,4 +215,14 @@ export const en: Translation = {
 	[Key.syntaxHighlightFailed]: "Syntax highlighting failed:",
 	[Key.autoSyntaxHighlightFailed]: "Auto syntax highlighting also failed:",
 	[Key.decryptionError]: "An error occurred during decryption:",
+
+	// Last Modified Card
+	[Key.lastModifiedPrefix]: "Last modified: ",
+	[Key.lastModifiedOutdated]: "Some information may be outdated",
+	[Key.year]: "Y ",
+	[Key.month]: "M ",
+	[Key.day]: "D ",
+	[Key.hour]: "H ",
+	[Key.minute]: "Min ",
+	[Key.second]: "Sec",
 };
