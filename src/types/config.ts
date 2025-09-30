@@ -3,6 +3,7 @@ import type { AUTO_MODE, DARK_MODE, LIGHT_MODE } from "../constants/constants";
 export type SiteConfig = {
 	title: string;
 	subtitle: string;
+	keywords?: string[]; // 站点关键词，用于生成 <meta name="keywords">
 
 	lang:
 		| "en"
@@ -176,6 +177,7 @@ export type BlogPostData = {
 	draft?: boolean;
 	image?: string;
 	category?: string;
+	series?: string;
 	pinned?: boolean;
 	prevTitle?: string;
 	prevSlug?: string;
