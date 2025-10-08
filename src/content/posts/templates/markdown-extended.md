@@ -12,6 +12,7 @@ tags:
 category: Examples
 draft: true
 series: Guide
+---
 
 ## GitHub Repository Cards
 You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API. 
