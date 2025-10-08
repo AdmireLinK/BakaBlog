@@ -14,7 +14,6 @@ import type {
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
-
 // 移除i18n导入以避免循环依赖
 
 // 定义站点语言
@@ -516,7 +515,7 @@ export const umamiConfig = {
 	enabled: true, // 是否显示Umami统计
 	websiteId: "418c379d-c3e4-42ae-9c97-67e8d40d78b3", // 你的网站ID
 	apiKey: "yANVSguWqqB7nTPZ", // 你的API密钥
-	baseUrl: "https://api.umami.is", // Umami Cloud API地址
+	baseUrl: "https://umami.baka.website", // Umami Cloud API地址
 	scripts: `
 <script defer src="https://umami.baka.website/script.js" data-website-id="418c379d-c3e4-42ae-9c97-67e8d40d78b3"></script>
   `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
