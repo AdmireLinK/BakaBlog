@@ -8,6 +8,6 @@
 
 ## 关于本站
 
-本网站是一个静态网站，采用Mizuki主题，并使用[MIT](https://mit-license.org/)协议开源于Github。
+本网站是一个静态网站，采用[Mizuki](https://github.com/matsuzaka-yuki/mizuki)主题，并使用[MIT](https://mit-license.org/)协议开源于Github。
 
-::github{repo="admirelink/bakablog"}
+::github{repo="AdmireLink/BakaBlog"}
